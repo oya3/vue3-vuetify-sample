@@ -1,5 +1,7 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import 'vuetify/styles';  // vuetifyパレットカラーを利用するためにはGlobal CSSの”vuetify/styles”のimportが必要
+import { createVuetify } from 'vuetify';
 
-createApp(App).mount('#app')
+const vuetify = createVuetify();
+createApp(App).use(vuetify).mount('#app');
