@@ -1,6 +1,4 @@
 <script setup>
-import { VBtn } from 'vuetify/components/VBtn'
-import { VChip } from 'vuetify/components/VChip'
 </script>
 
 <template>
